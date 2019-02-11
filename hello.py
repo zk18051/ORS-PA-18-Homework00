@@ -1,2 +1,9 @@
-print("Hello World")
-print('Moje ime je Zijad')
+def greet(name, prezime):
+    """
+
+    :type prezime: object
+    """
+    print('Hello there ' +   name +' '+ prezime)
+    print(name, prezime)
+
+greet('Zijad', 'Kurpejovic')
